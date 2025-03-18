@@ -1,6 +1,6 @@
 <div>
     <img src='../assets/new_logo.png' height='auto' width='200' align='right'>
-    <h1>Irrigation</h1>
+    <h1>Crop Frequency</h1>
 </div>
 
 Developed by ***Remap Geotecnologia Ltda.***

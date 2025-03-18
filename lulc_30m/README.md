@@ -23,7 +23,7 @@ This repository contains scripts used for the classification of Mapbiomas' Colle
 
 ## How to use
 
-First, you need to copy the scripts in this repository  (including those in [utils folder](./utils)) to your Google Earth Engine (**GEE**) account. Then, you can follow the instructions for every class in the links bellow:
+First, you need to copy the scripts in this repository  (including those in [utils folder](../utils)) to your Google Earth Engine (**GEE**) account. Then, you can follow the instructions for every class in the links bellow:
 																						 
  - [Soybean, Cotton and Other Temporary Crops](./soybean_cotton_other_temporary_crops) instructions;
  - [Sugar Cane](./sugarcane) instructions;
