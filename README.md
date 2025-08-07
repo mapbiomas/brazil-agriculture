@@ -14,7 +14,7 @@ This repository contains scripts used for MapBiomas Brazil, both for the Agricul
 
 You can follow the instructions for each topic in their respective folder linked bellow:
 																						 
- - [Crop Frequency](./frequency) instructions;
+ - [Number of Cycles](./cycles) instructions;
  - [Irrigation](./irrigation) instructions;
  - [Land Use Land Cover 30m](./lulc_30m) instructions;
  - [Land Use Land Cover 10m (Beta)](./lulc_10m) instructions;
