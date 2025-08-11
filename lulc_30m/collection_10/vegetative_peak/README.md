@@ -1,5 +1,5 @@
 <div>
-    <img src='../../assets/new_logo.png' height='auto' width='200' align='right'>
+    <img src='../../../assets/new_logo.png' height='auto' width='200' align='right'>
     <h1>Vegetative Peak</h1>
 </div>
 
@@ -7,7 +7,7 @@ Developed by ***Remap Geotecnologia Ltda***.
 
 ## About
 
-This folder contains the scripts to calculate the **Vegetative Peak** month of temporary crops. This was used in Collection 9 to define the periods for the mosaics used in the classification of soybean, cotton and other temporary crops. 
+This folder contains the scripts to calculate the **Vegetative Peak** month of temporary crops. This was used in Collection 10 to define the periods for the mosaics used in the classification of soybean, cotton and other temporary crops. 
 
 This is an optional step in the classification, since we left this information already available in [this GEE asset](https://code.earthengine.google.com/?asset=users/mapbiomas1/PUBLIC/GRIDS/BRASIL_COMPLETO_PEAK).
 
@@ -15,7 +15,7 @@ We recommend that you read the [Agriculture Appendix of the Algorithm Theoretica
 
 ## How to use
 
-You need to copy the scripts in this folder and in the [utils folder](../utils) to your Google Earth Engine (**GEE**) account.
+You need to copy the scripts in this folder and in the [utils folder](../../../utils) to your Google Earth Engine (**GEE**) account.
 
 
 1. Open the script **agriculture/vegetative_peak/00_vegetative_peak.js**;

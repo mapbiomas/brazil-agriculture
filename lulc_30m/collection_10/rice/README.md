@@ -1,5 +1,5 @@
 <div>
-    <img src='../../assets/new_logo.png' height='auto' width='200' align='right'>
+    <img src='../../../assets/new_logo.png' height='auto' width='200' align='right'>
     <h1>Rice (Irrigated)</h1>
 </div>
 
@@ -15,21 +15,15 @@ We recommend that you read the [Agriculture Appendix of the Algorithm Theoretica
 
 ### Classification
 
-#### To classify using the trained MapBiomas Neural Network 
+#### Classification using UNET 
 
-1. Open the script **agriculture/rice/01_save_mosaic_to_classify.js** (or this one in [GEE](https://code.earthengine.google.com/797aa36ede2caf55a72f0bdc42dc4f35)) and chose the state and year to classify. After, click on the grid to save the mosaic to classify. 
+1. Open [this notebook](./01a_unet_training_pipeline.ipynb) and follow the training steps to train the model on your data;
 
-2. Open the script **agriculture/rice/02_semantic_segmentation_rice_classify** (or this one in [Colab](https://colab.research.google.com/drive/1HFGCsVNk7-ADuXuv_tUrYRll58f5qPX4?usp=sharing)). 
-
-#### To train your own Neural Network
-
-1. Open [this script](https://colab.research.google.com/drive/1C-ut9LLjuYH0hVXgvJK0kdD_i69AIpkJ?usp=sharing) and save the mosaics and labels;
-
-2. Open and run [this script](https://colab.research.google.com/drive/194eOqVKdq8gtAoVA2iFdtBEn5QRMWRVx?usp=sharing).
+2. Open [this notebook](./02a_unet_inference_pipeline.ipynb) and follow the inference steps.
 
 #### Classification using Random Forest
 
-1. Open the script **agriculture/rice/02_temporal_filter.js**;
+1. Open the script **agriculture/rice/02b_classification_rf.js**;
 
 2. On **line 66** (variable `outputCollection`), set the path to save the ImageCollection raw classification result;
 
@@ -43,7 +37,7 @@ To run the post-processing, follow these steps:
 
 1. Open the script **agriculture/rice/03_temporal_filter.js**;
 
-2. On **line 34** (variable `filters`), set the path to the [temporal_spatial_filters.js](../utils/temporal_spatial_filters.js) script you copied to your GEE account;
+2. On **line 34** (variable `filters`), set the path to the [temporal_spatial_filters.js](../../../utils/temporal_spatial_filters.js) script you copied to your GEE account;
 
 3. On **line 42** (variable `input`), set the path to the ImageCollection raw classification result;
 

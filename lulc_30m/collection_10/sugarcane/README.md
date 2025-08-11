@@ -1,5 +1,5 @@
 <div>
-    <img src='../../assets/new_logo.png' height='auto' width='200' align='right'>
+    <img src='../../../assets/new_logo.png' height='auto' width='200' align='right'>
     <h1>Sugar Cane</h1>
 </div>
 
@@ -32,7 +32,7 @@ To run the classification, follow these steps:
 
 1. Open the script **agriculture/sugarcane/01_classification.js**;
 
-2. On **line 20** (variable `api`), set the path to the [api.js](../utils/api.js) script you copied to your GEE account;
+2. On **line 20** (variable `api`), set the path to the [api.js](../../../utils/api.js) script you copied to your GEE account;
 
 3. On **line 25** (variable `outputCollection`), set the output path for the classification results;
   

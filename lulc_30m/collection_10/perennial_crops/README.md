@@ -1,5 +1,5 @@
 <div>
-    <img src='../../assets/new_logo.png' height='auto' width='200' align='right'>
+    <img src='../../../assets/new_logo.png' height='auto' width='200' align='right'>
     <h1>Perennial Crops</h1>
 </div>
 
@@ -13,7 +13,7 @@ We recommend that you read the [Agriculture Appendix of the Algorithm Theoretica
 
 ## How to use
 
-First, you need to copy the scripts in this folder and in the [utils folder](../utils) to your Google Earth Engine (**GEE**) account.
+First, you need to copy the scripts in this folder and in the [utils folder](../../../utils) to your Google Earth Engine (**GEE**) account.
 
 Then, in your **GEE** account, go to the **Assets tab**, create the following directory structure:
 
@@ -29,7 +29,7 @@ To run the classification, follow these steps:
 
 1. Open the script **agriculture/perennial_crops/01_classification.js**;
 
-2. On **line 19** (variable `api`), set the path to the [api.js](../utils/api.js) script you copied to your GEE account;
+2. On **line 19** (variable `api`), set the path to the [api.js](../../../utils/api.js) script you copied to your GEE account;
 
 3. On **line 24** (variable `output`), set the output path for the classification results;
 
